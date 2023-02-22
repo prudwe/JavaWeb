@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'mvn test';
 		sh 'mvn clean';
-		sh echo "WEBHOOK TRIGGERED...................................!!!!!!"
+		sh 'echo "WEBHOOK TRIGGERED...................................!!!!!!"';
             }
         }
     }
